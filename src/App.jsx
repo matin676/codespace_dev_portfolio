@@ -30,7 +30,7 @@ const siteProps = {
   gitHub: "matin676",
   facebook: "matin.imam",
   linkedIn: "matinimam",
-  twitter: "matin_imam77",
+  twitter: "matin_imam7",
 };
 
 const primaryColor = "#4E567E";
