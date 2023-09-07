@@ -2902,7 +2902,7 @@ try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 /**
- * Entry point of application, where App is rendered within the div with the id of "app" 
+ * Entry point of application, where App is rendered within the div with the id of "app"
  */ var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _reactDom = require("react-dom");
@@ -27093,7 +27093,7 @@ var _stylesCss = require("./styles.css");
     gitHub: "matin676",
     facebook: "matin.imam",
     linkedIn: "matinimam",
-    twitter: "matin_imam77"
+    twitter: "matin_imam7"
 };
 const primaryColor = "#4E567E";
 const secondaryColor = "#D2F1E4";
