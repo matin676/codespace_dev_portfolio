@@ -19,9 +19,9 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/portfolio.jpg";
 
-const imageAltText = "desktop with books and laptop";
+const imageAltText = "keyboard image";
 
 /**
  * Project list
@@ -31,28 +31,26 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
-    description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+    title: "Employee Management System",
+    description: "Employee management portal made using HTML, CSS and PHP",
+    url: "https://github.com/matin676/Employee_managment_system",
   },
   {
-    title: "Web Development for Beginners",
-    description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+    title: "React Music Player",
+    description: "Music Player made using react.",
+    url: "https://matin676.github.io/music-player/",
   },
   {
-    title: "My Resume Site",
+    title: "Hangman Game",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "Challenge yourself to guess the hidden word by selecting letters one by one, but be careful! Each incorrect guess brings the hangman one step closer to his fate.",
+    url: "https://hangman77.netlify.app/",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "Advice Generator",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "A web app made using react which generates advice on every reload and on dicing manually",
+    url: "https://matin676.github.io/Advice-Generator/",
   },
 ];
 
@@ -64,7 +62,12 @@ const Portfolio = () => {
         <div style={{ maxWidth: "40%", alignSelf: "center" }}>
           <img
             src={image}
-            style={{ height: "90%", width: "100%", objectFit: "cover" }}
+            style={{
+              height: "90%",
+              width: "100%",
+              objectFit: "cover",
+              animation: "1s ease-out 0s 1 slideIn",
+            }}
             alt={imageAltText}
           />
         </div>
